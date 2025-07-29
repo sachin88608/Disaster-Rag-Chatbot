@@ -9,40 +9,40 @@ The core idea of this thesis is to use advanced AI models to automate the proces
 ## Repository Structure
 This repository is organized to provide a clear and detailed view of the codebase and experiment results. Below is an explanation of the main files and folders:
 
-- **config.py**
+**1. config.py**
   - Stores all configuration settings, including model names, API keys, data sources, and vector database parameters.
 
-- **setup_data.py**
+**2. setup_data.py**
   - Prepares and processes raw disaster data. Converts documents into embeddings and stores them in the vector database (ChromaDB).
 
-- **data_ingestion.py**
+**3. data_ingestion.py**
   - Handles reading and extracting content from various data formats (PDF, CSV, Excel, text, and web pages). Cleans and standardizes the data for further processing.
 
-- **vector_store.py**
+**4. vector_store.py**
   - Manages the storage and retrieval of document embeddings using ChromaDB. Handles chunking, embedding creation, and similarity search.
 
-- **rag_system.py**
+**5. rag_system.py**
   - The core logic for the Retrieval-Augmented Generation system. Orchestrates data ingestion, retrieval, and LLM-based answer generation.
 
-- **llm_interface.py**
+**6. llm_interface.py**
   - Provides an interface to interact with Large Language Models (LLMs) via the GROQ API. Handles prompt creation and response parsing.
 
-- **ragas_evaluation_fixed.py**
+**7. ragas_evaluation_fixed.py**
   - Implements the evaluation logic using the RAGAS framework. Calculates metrics like faithfulness, answer relevancy, and context recall for system outputs.
 
-- **run_single_experiment.py**
+**8. run_single_experiment.py**
   - Allows you to run a single experiment with a chosen combination of embedding and LLM models. Saves evaluation results for each run.
 
-- **streamlit_app.py**
+**9. streamlit_app.py**
   - Launches the Streamlit web interface for interactive Q&A. Users can ask disaster management questions and get AI-powered answers with source citations.
 
-- **data/**
+**10. data Folder**
   - Directory containing all raw disaster datasets (earthquake, flood, tsunami, etc.) in various formats.
 
-- **batch_experiment_results/**
+**11. batch_experiment_results Folder**
   - Folder where experiment results are saved as JSON files for later analysis and comparison.
 
-- **README.md**
+**12. README.md File**
   - This file. Provides instructions, project overview, and a detailed file structure explanation.
 
 ---
