@@ -1,0 +1,14 @@
+question,ground_truth_answer,source,
+What caused the tsunami event near E. Sporades Islands recorded in 330 B.C.?,Earthquake,tsunami_dataset.csv
+What proxies were used in the 2011 study by Ramírez-Herrera in Mexico?,"Geochemical, foraminifera, ostracods, diatoms, etc.",GLOBAL_SITES_TD.csv
+What is the primary goal of NASA's tsunami disaster response program?,To support disaster management efforts using Earth observation data.,https://appliedsciences.nasa.gov/what-we-do/disasters/tsunamis
+What was the cause of the flood in Mozambique on 2008-12-28?,"2, 1",cyberFlood_1104.csv
+What is the severity of the flood event in the United States on 2008-12-29?,1.5,cyberFlood_1104.csv
+Which organization is responsible for managing cyclonic hazards in India?,National Disaster Management Authority (NDMA),https://www.ndma.gov.in/Natural-Hazards/Cyclone
+"According to the SOP 2024, what is the first step in flood response?",Activate the emergency response team.,61_d385f4_FINAL SOP 2024_December.pdf
+What are the four stages in the life cycle of a tropical cyclone?,"Formative, Immature, Mature, and Decaying stages.",61_d385f4_FINAL SOP 2024_December.pdf
+What are the disaster types included in the 2020 Afghanistan dataset?,"Avalanche, Earthquake, Epidemic, Flood / Flash Flood, Landslide, Snowfall",afghanistan-natural-disaster-incidents-from-january-to-december-2020.xlsx
+What is the main reference used for disaster incident data in Afghanistan 2020?,HADB (Humanitarian Assistance Database),afghanistan-natural-disaster-incidents-from-january-to-december-2020.xlsx
+What is defined as a natural disaster incident in the 2022 Afghanistan dataset?,An event where people were affected or required humanitarian assistance,afghanistan-natural-disaster-incidents-from-january-to-september-2022.xlsx
+How many totally damaged houses were reported in Agusan del Norte in 2019?,0,200204_philippines-2019-events-data.xlsx
+What is ShakeMap used for?,To provide rapid post-earthquake information including ground shaking maps,https://earthquake.usgs.gov/data/shakemap/

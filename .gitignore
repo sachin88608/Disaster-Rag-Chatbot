@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables and secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ChromaDB and other database/data cache folders
+chroma_db/
+*.sqlite3
+
+# Data files (if you don't want to share them)
+!data/README.md  # (if you want to keep a placeholder)
+
+# Log files
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# VSCode and IDE settings
+.vscode/
+.idea/

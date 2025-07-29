@@ -1,0 +1,103 @@
+{
+  "metrics": {
+    "answer_relevancy": 1.0,
+    "context_relevancy": 0.8,
+    "context_precision": 0.9,
+    "faithfulness": 0.8,
+    "context_recall": 0.8,
+    "average_score": 0.86,
+    "weighted_score": 0.86
+  },
+  "evaluation_data": [
+    {
+      "question": "What types of disaster data are available in the dataset?",
+      "answer": "The datasets contain information on the following types of natural disasters: Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide, and Mudflow. Drought, fires, river bank erosion, and other disasters have been removed from the datasets.",
+      "contexts": [
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        ". With the emphasis on fundamental data facilities for disaster prevention and mitigation, a more comprehensive database is needed. Several countries and agencies have established disaster databases. ...",
+        ". 2) A natural disaster incident is defined as an event that has affected (i.e. impacted) people, who may or may not require humanitarian assistance. 3) The information includes assessment figures fro...",
+        ". A total of 70 GB of disaster prevention and mitigation data were compiled and processed into three major categories and 21 subcategories. These datasets included the water system, traffic network, l..."
+      ],
+      "ground_truth": "The dataset contains tsunami, flood, displacement, and disaster incident data from various countries and regions"
+    },
+    {
+      "question": "How is disaster data categorized in the system?",
+      "answer": "Disaster data in the system are categorized into eight main categories:\n1. Hydrometeorological disaster datasets (273)\n2. Geological and earthquake disaster datasets (162)\n3. Marine disaster datasets (11)\n4. Biological disaster datasets (95)\n5. Ecological and environmental disaster datasets (41)\n6. Technical disaster datasets (5)\n7. Social disaster datasets (12)\n8. Other disaster datasets (150)",
+      "contexts": [
+        ". Federated retrieval data can be presented directly in the static directory of the platform. After compilation, the main disaster data catalog system was classified into eight categories: 273 hydrome...",
+        ". Figure 2 Data compilation diagram of GDMD. The second originates from global disaster platforms with open access to the network through a manual search. This data catalog is also called manually cat...",
+        ". All datasets were classified according to the universal classification system of disaster data in the GDMD ( Table 2 ). There were eight first-level and 52 second-level classes. After metadata codin...",
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". Diverse types of scattered disaster data are the basis for disaster prevention and mitigation. The realization of these interconnections and links remains challenging. This study proposes an open di...",
+        ". 5 Conclusion Open Science is a common understanding that facilitates data sharing in all science and technology fields, including disaster risk reduction. However, improving the ability to share dis...",
+        ". Users may be familiar with one or more of these databases but do not know other related datasets. Thus, it is inconvenient for them to retrieve and obtain the data required for an emergency response...",
+        ". EM-DAT ( https://www.emdat.be ) is a historical disaster database recording the occurrence and impact of more than 22,000 mass disaster events globally since 1900 ( Wang et al., 2019 ). The China Ge..."
+      ],
+      "ground_truth": "Disaster data is categorized by type (tsunami, flood, displacement), country, year, and severity levels"
+    },
+    {
+      "question": "What information is recorded for each disaster event?",
+      "answer": "EM-DAT records the occurrence and impacts of over 26,000 mass disasters worldwide from 1900 to the present. The database includes details such as the type of disaster, location, date, affected population, fatalities, injuries, and economic damage. It also provides information on the humanitarian response and the level of assistance required.",
+      "contexts": [
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". EM-DAT ( https://www.emdat.be ) is a historical disaster database recording the occurrence and impact of more than 22,000 mass disaster events globally since 1900 ( Wang et al., 2019 ). The China Ge...",
+        ". The 2024 Spain Floods: A Call for Resilience and the Duty of Memory Charalampous et al. 2025 Access ... 2024 Disasters in Numbers A Hot and Stormy Year Access ... EM-DAT is FAIR Read more... Previou...",
+        "EM-DAT - The international disaster database Home About Our staff STAG Meetings Scientific Committee News Publications Contact Access the data Monitoring hazards & disasters worldwide since 1988 EM-DA...",
+        "This figure refers primarily to people remaining displaced from floods and storms at the end of the year. It refers mostly to people reported as inside and outside evacuation centres. Our estimate was...",
+        "Notes:: Natural disaster incidents as recorded by OCHA Field Offices and partners  from 1 January to 29 December 2020.",
+        ". 2) A natural disaster incident is defined as an event that has affected (i.e. impacted) people, who may or may not require humanitarian assistance. 3) The information includes assessment figures fro...",
+        "This figure refers mostly to internal displacements due to floods, particularly during the rainy season. This figure was obtained from Badan Nasional Penanggulangan Bencana (BNPB), also known as the N..."
+      ],
+      "ground_truth": "Each disaster event typically includes location, date, severity, cause, affected population, and damage assessment"
+    },
+    {
+      "question": "What are the main sources of disaster data in the system?",
+      "answer": "The main sources of disaster data in the system include:\n\n- **Badan Nasional Penanggulangan Bencana (BNPB)**: National Disaster Management Authority in Indonesia, which collects data from local and regional offices (BPBD), daily and weekly reports, and the Disaster Informasi Bencana Indonesia data portal.\n- **ASEAN Disaster Information Network (ADInet)**: Used to collect data when direct access is limited.\n- **Federal Emergency Management Agency (FEMA)**: Provides displacement data in the US, along with state, county, and local authorities, and media outlets.\n- **Ministry of Disaster Management**: Source of data for Bangladesh.\n- **Civil Affairs Department of the Ministry of Interiors**: Provides data for Taiwan.\n- **Media Reports**: Used extensively, especially when official data is not available or to corroborate information.\n- **Local and Regional Authorities**: Contribute to data collection in various countries.",
+      "contexts": [
+        "This figure refers mostly to internal displacements due to floods, particularly during the rainy season. This figure was obtained from Badan Nasional Penanggulangan Bencana (BNPB), also known as the N...",
+        "The figure is primarily based on displacement data collected by the Federal Emergency Management Agency (FEMA), and state, county and local authorities, as reported by these actors themselves or by me...",
+        "ISO3: IDN | Year: 2024 | Figure cause: Disaster | Figure category: IDPs | Description: **Methodology and Sources**\nThis figure refers to people who remained displaced as of the end of the year across ...",
+        "ISO3: BGD | Year: 2024 | Figure cause: Disaster | Figure category: IDPs | Description: **Methodology and Sources** \nThis figure refers to people still displaced due to storm-related events and floods,...",
+        "ISO3: NIC | Year: 2024 | Figure cause: Disaster | Figure category: Internal Displacements | Description: **Methodology and Sources** \nThis figure refers to displacements triggered mainly by storms bet...",
+        "ISO3: TWN | Year: 2024 | Figure cause: Disaster | Figure category: Internal Displacements | Description: **Methodology and Sources**\nThis figure refers to internal displacements primarily caused by st...",
+        "ISO3: NAM | Year: 2024 | Figure cause: Disaster | Figure category: IDPs | Description: **Methodology and Sources**\n\nThis figure refers to individuals who remained displaced as of the end of the year d...",
+        "ISO3: AGO | Year: 2024 | Figure cause: Disaster | Figure category: IDPs | Description: **Methodology and Sources**\n\nThis figure refers to people who remained displaced due to floods and storms in mult..."
+      ],
+      "ground_truth": "The system includes data from various sources including government agencies, international organizations, and research institutions"
+    },
+    {
+      "question": "How is geographic information stored in the disaster dataset?",
+      "answer": "The context documents do not explicitly detail how geographic information is stored within disaster datasets. However, it is mentioned that the ISO 19115 Metadata Standard is used, which is widely compatible with geospatial information, suggesting that geographic information is likely stored in a standardized format suitable for disaster data [REF]5[/REF].",
+      "contexts": [
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". Users can access the integrated global disaster catalog in the GDMD and use these resources in different scenarios. For example, users can find available open data in various ways, including local o...",
+        ". Figure 2 Data compilation diagram of GDMD. The second originates from global disaster platforms with open access to the network through a manual search. This data catalog is also called manually cat...",
+        ". Users may be familiar with one or more of these databases but do not know other related datasets. Thus, it is inconvenient for them to retrieve and obtain the data required for an emergency response...",
+        ". Typically, metadata have the functions of describing, retrieving, selecting, locating, integrating, cataloging, managing, and evaluating resources. Owing to the wide range of disciplines involved in...",
+        ". 5 Conclusion Open Science is a common understanding that facilitates data sharing in all science and technology fields, including disaster risk reduction. However, improving the ability to share dis...",
+        ". With the emphasis on fundamental data facilities for disaster prevention and mitigation, a more comprehensive database is needed. Several countries and agencies have established disaster databases. ...",
+        ". Diverse types of scattered disaster data are the basis for disaster prevention and mitigation. The realization of these interconnections and links remains challenging. This study proposes an open di..."
+      ],
+      "ground_truth": "Geographic information includes country codes, latitude/longitude coordinates, region names, and administrative divisions"
+    }
+  ],
+  "timestamp": "2025-06-24T22:42:55.772265",
+  "model_name": "llama-3.1-8b-instant",
+  "dataset_size": 5,
+  "processing_time": 31.01269292831421,
+  "optimization": "batch_processing",
+  "dataset_source": "VECTORSTORE_EVALUATION_DATASET.csv",
+  "experiment_number": 11,
+  "configuration": {
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "llm_model": "mistral-saba-24b",
+    "description": "BAAI/bge-small-en-v1.5 + mistral-saba-24b"
+  },
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "llm_model": "mistral-saba-24b",
+  "total_documents": 13778
+}

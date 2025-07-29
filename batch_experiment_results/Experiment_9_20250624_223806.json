@@ -1,0 +1,103 @@
+{
+  "metrics": {
+    "answer_relevancy": 0.8,
+    "context_relevancy": 1.0,
+    "context_precision": 0.9,
+    "faithfulness": 0.7,
+    "context_recall": 0.9,
+    "average_score": 0.8600000000000001,
+    "weighted_score": 0.8350000000000001
+  },
+  "evaluation_data": [
+    {
+      "question": "What types of disaster data are available in the dataset?",
+      "answer": "The dataset includes the following types of disaster data:\n\n- Avalanche\n- Earthquake\n- Flash Flood\n- Flood\n- Heavy Rainfall/Snowfall\n- Landslide\n- Mudflow",
+      "contexts": [
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        "Notes:: Natural disaster types include, Avalanche, Earthquake, Flash Flood, Flood, Heavy Rainfall/Snowfall, Landslide and Mudflow. Drought, fires, river bank erosion and other disasters have been remo...",
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". With the emphasis on fundamental data facilities for disaster prevention and mitigation, a more comprehensive database is needed. Several countries and agencies have established disaster databases. ...",
+        ". A total of 70 GB of disaster prevention and mitigation data were compiled and processed into three major categories and 21 subcategories. These datasets included the water system, traffic network, l...",
+        ". The technological group is less detailed and comprises three main types: transport, industrial, and miscellaneous accidents. EM-DAT in numbers About 2/3 of disasters in EM-DAT are related to natural..."
+      ],
+      "ground_truth": "The dataset contains tsunami, flood, displacement, and disaster incident data from various countries and regions"
+    },
+    {
+      "question": "How is disaster data categorized in the system?",
+      "answer": "Disaster data is categorized in two main systems mentioned in the context:\n\n1. **GDMD (Global Disaster Metadata Database)**: It uses a universal classification system with eight first-level and 52 second-level classes. Data is archived and accessed via metadata coding and classification [REF]1[/REF].\n\n2. **EM-DAT**: This database classifies disasters into two groups: natural and technological. The natural group is further detailed into four levels, while the technological group includes transport, industrial, and miscellaneous accidents [REF]2[/REF].",
+      "contexts": [
+        ". All datasets were classified according to the universal classification system of disaster data in the GDMD ( Table 2 ). There were eight first-level and 52 second-level classes. After metadata codin...",
+        ". Inclusion criteria EM-DAT focuses on major disasters EM-DAT globally records at the country level human and economic losses for disasters with at least one of the following criteria: 10 fatalities; ...",
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". A total of 70 GB of disaster prevention and mitigation data were compiled and processed into three major categories and 21 subcategories. These datasets included the water system, traffic network, l...",
+        ". With the emphasis on fundamental data facilities for disaster prevention and mitigation, a more comprehensive database is needed. Several countries and agencies have established disaster databases. ...",
+        ". and Wei, H. (2020a) \u2018Disaster risk reduction knowledge service: A paradigm shift from disaster data towards knowledge services\u2019, Pure and Applied Geophysics , 177(2), pp. 135\u2013148. Available at: http...",
+        ". Implementation and application of GDMD 3.1 Construction of data directory resources The resource collection in the GDMD can be divided into three sources, as shown in Figure 2 . The first part compr...",
+        ". The technological group is less detailed and comprises three main types: transport, industrial, and miscellaneous accidents. EM-DAT in numbers About 2/3 of disasters in EM-DAT are related to natural..."
+      ],
+      "ground_truth": "Disaster data is categorized by type (tsunami, flood, displacement), country, year, and severity levels"
+    },
+    {
+      "question": "What information is recorded for each disaster event?",
+      "answer": "The context documents do not explicitly state what information is recorded for each disaster event. However, based on the provided sources, it is likely that each disaster event records details such as:\n\n- Natural disaster type\n- Date of occurrence\n- Location (district)\n- Impact and magnitude (where available)\n- Additional contextual information (e.g., from OCHA Field Offices and partners)\n\nFor more specific details, you may need to refer to the actual datasets or their metadata.",
+      "contexts": [
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        "Notes:: All incident records have been aggreagated to a unique event (natural disaster type and date) by district.",
+        "Notes:: All incident records have been aggreagated to a unique event (natural disaster type and date) by district.",
+        "Notes:: All incident records have been aggreagated to a unique event (natural disaster type and date) by district.",
+        "Notes:: All incident records have been aggreagated to a unique event (natural disaster type and date) by district.",
+        "(South-Africa) \u201cThanks to EM-DAT, we can transform past disaster data into actionable plans that save lives and strengthen resilience.\u201d Amod Mani Dixit, National Society for Earthquake Technology (Nep...",
+        "Notes:: Natural disaster incidents as recorded by OCHA Field Offices and partners  from 01 January to 19 September 2022.",
+        "**Caveats and Challenges**\nData from NDRRMC and DROMIC are highly reliable and provide national coverage. However, there could be cases where reports of disaster displacement from small events were no..."
+      ],
+      "ground_truth": "Each disaster event typically includes location, date, severity, cause, affected population, and damage assessment"
+    },
+    {
+      "question": "What are the main sources of disaster data in the system?",
+      "answer": "The main sources of disaster data in the system include:\n\n1. **Self-built resources** from the Disaster Risk Reduction Knowledge Service System of the International Knowledge Centre for Engineering Science and Technology auspices of UNESCO (IKCEST-DRR).\n2. **Global disaster platforms** with open access, collected through manual searches.\n3. **Resources harvested through open standard protocols** that follow both the GDMD and the target harvested database.",
+      "contexts": [
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". Implementation and application of GDMD 3.1 Construction of data directory resources The resource collection in the GDMD can be divided into three sources, as shown in Figure 2 . The first part compr...",
+        ". The technological group is less detailed and comprises three main types: transport, industrial, and miscellaneous accidents. EM-DAT in numbers About 2/3 of disasters in EM-DAT are related to natural...",
+        ". A total of 70 GB of disaster prevention and mitigation data were compiled and processed into three major categories and 21 subcategories. These datasets included the water system, traffic network, l...",
+        ". The Global Facility for Disaster Reduction and Recovery ( https://www.gfdrr.org/en ) is an international organization that helps developing countries better understand and reduce their vulnerability...",
+        ". With the emphasis on fundamental data facilities for disaster prevention and mitigation, a more comprehensive database is needed. Several countries and agencies have established disaster databases. ...",
+        ". Figure 2 Data compilation diagram of GDMD. The second originates from global disaster platforms with open access to the network through a manual search. This data catalog is also called manually cat...",
+        "GDMD: A Disaster Data Hub Fabric the Open Data Network for Disaster Risk Reduction | Data Science Journal Skip to main content Home About Contact Content Research Integrity Open navigation Home About ..."
+      ],
+      "ground_truth": "The system includes data from various sources including government agencies, international organizations, and research institutions"
+    },
+    {
+      "question": "How is geographic information stored in the disaster dataset?",
+      "answer": "The context documents do not provide specific details on how geographic information is stored in the disaster dataset.",
+      "contexts": [
+        ". Implementation and application of GDMD 3.1 Construction of data directory resources The resource collection in the GDMD can be divided into three sources, as shown in Figure 2 . The first part compr...",
+        ". Open disaster data form the foundation of Disaster Risk Reduction (DRR) activities. Although the nature of disaster data is massive and diverse, helping users find and access these open disaster dat...",
+        ". The Global Facility for Disaster Reduction and Recovery ( https://www.gfdrr.org/en ) is an international organization that helps developing countries better understand and reduce their vulnerability...",
+        ". Figure 2 Data compilation diagram of GDMD. The second originates from global disaster platforms with open access to the network through a manual search. This data catalog is also called manually cat...",
+        ". A total of 70 GB of disaster prevention and mitigation data were compiled and processed into three major categories and 21 subcategories. These datasets included the water system, traffic network, l...",
+        ". With the emphasis on fundamental data facilities for disaster prevention and mitigation, a more comprehensive database is needed. Several countries and agencies have established disaster databases. ...",
+        ". Users can access the integrated global disaster catalog in the GDMD and use these resources in different scenarios. For example, users can find available open data in various ways, including local o...",
+        "This figure refers primarily to people remaining displaced from floods and storms at the end of the year. It refers mostly to people reported as inside and outside evacuation centres. Our estimate was..."
+      ],
+      "ground_truth": "Geographic information includes country codes, latitude/longitude coordinates, region names, and administrative divisions"
+    }
+  ],
+  "timestamp": "2025-06-24T22:38:06.373804",
+  "model_name": "llama-3.1-8b-instant",
+  "dataset_size": 5,
+  "processing_time": 35.95371913909912,
+  "optimization": "batch_processing",
+  "dataset_source": "VECTORSTORE_EVALUATION_DATASET.csv",
+  "experiment_number": 9,
+  "configuration": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "llm_model": "mistral-saba-24b",
+    "description": "all-MiniLM-L6-v2 + mistral-saba-24b"
+  },
+  "embedding_model": "all-MiniLM-L6-v2",
+  "llm_model": "mistral-saba-24b",
+  "total_documents": 13778
+}
