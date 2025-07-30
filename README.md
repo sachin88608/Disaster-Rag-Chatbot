@@ -1,7 +1,7 @@
 # Disaster Management RAG System: Thesis Experiments Repository
 
 ## Overview
-This repository is part of a thesis project focused on building and evaluating a Retrieval-Augmented Generation (RAG) system for disaster management. The project leverages Large Language Models (LLMs) and vector databases to answer disaster-related questions using real-world datasets. The goal is to compare different model combinations and techniques to identify the most effective approach for accurate and relevant information retrieval in emergency scenarios.
+This repository is part of a thesis project focused on "Design and Evaluation of a RAG-Based Chatbot for Multi-Hazard Disaster Management Using Vector Embeddings and Large Language Models". It is focused on building and evaluating a Retrieval-Augmented Generation (RAG) system for disaster management. The project leverages Large Language Models (LLMs) and vector databases to answer disaster-related questions using real-world datasets. The goal is to compare different model combinations and techniques to identify the most effective approach for accurate and relevant information retrieval in emergency scenarios.
 
 ## Project Idea
 The core idea of this thesis is to use advanced AI models to automate the process of answering disaster management questions by combining document retrieval with generative language models. By processing diverse datasets (earthquake, flood, tsunami, and covid-19 Pandemic), converting them into vector representations, and integrating them with LLMs, the system can provide grounded, context-aware answers. The project systematically tests various embedding and LLM model combinations to find the best setup for real-world disaster response applications.
